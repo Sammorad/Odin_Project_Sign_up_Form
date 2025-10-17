@@ -1,0 +1,98 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+    min-height: 100vh;
+
+    
+    
+   }
+
+@font-face {
+    font-family: "Norse-Bold";
+    src: url(Norse-Bold.otf);
+    
+}
+.logo{
+    width: 500px;
+    
+    
+    background-image: url(Odin_background_image.jpg);
+    
+}
+.logo p{
+    font-family: "Norse-Bold";
+    align-self: center;
+    font-size: 40px;
+}
+.logo img{
+    height: auto;
+    width: 30px;
+}
+.logo .odin {
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    background-color: transparent;
+    border: 5px solid red;
+    margin-top: 100px;
+    padding: 33px;
+}
+form{
+    width: 500px;
+    background-color: white;
+    
+    
+}
+
+.top{
+    background-color: grey;
+    padding: 10px;
+    height: 33.33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.name, .telemail, .pass{
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 3px;
+    flex: 1;
+}
+.middle{
+    background-color: aliceblue;
+    padding: 10px;
+    height: 33.33%;
+    
+}
+.bottom{
+    background-color: white;
+    
+}
+
+.bottom .but, .bottom p{
+    padding: 10px;
+}
+button{
+    background-color: #596d48;
+    border: 0;
+    padding: 5px 20px 5px 20px ;
+    border-radius: 5px;
+    font-size: x-small;
+}
+input{
+    border: 1px solid #E5E7EB;
+}
+.pass input[type='password']:invalid{
+    border: 1px dashed red;
+}
+.nm1 input[type='text']:invalid {
+    border: 1px dashed blue;
+
+}
