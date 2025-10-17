@@ -17,7 +17,7 @@ body{
     
 }
 .logo{
-    width: 500px;
+    width: 350px;
     
     
     background-image: url(Odin_background_image.jpg);
@@ -26,23 +26,25 @@ body{
 .logo p{
     font-family: "Norse-Bold";
     align-self: center;
-    font-size: 40px;
+    font-size: 60px;
+    color: white;
 }
 .logo img{
-    height: auto;
-    width: 30px;
+    height: 80px;
+    width: 65px;
 }
 .logo .odin {
     display: flex;
     justify-content: center;
+    align-items: center;
     height: 30px;
     background-color: transparent;
-    border: 5px solid red;
+    border: 1px solid;
     margin-top: 100px;
     padding: 33px;
 }
 form{
-    width: 500px;
+    width: 450px;
     background-color: white;
     
     
@@ -56,6 +58,14 @@ form{
     flex-direction: column;
     justify-content: flex-end;
 }
+.top p{
+    font-size: 12px;
+   
+}
+.top-1{
+    padding-right: 100px;
+}
+
 
 .name, .telemail, .pass{
     
