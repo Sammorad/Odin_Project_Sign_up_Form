@@ -21,6 +21,7 @@ body{
     
     
     background-image: url(Odin_background_image.jpg);
+    background-size: contain;
     
 }
 .logo p{
@@ -38,7 +39,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 30px;
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.5);
     border: 1px solid;
     margin-top: 100px;
     padding: 33px;
@@ -92,9 +93,10 @@ form{
 button{
     background-color: #596d48;
     border: 0;
-    padding: 5px 20px 5px 20px ;
+    padding: 10px 30px 10px 30px ;
     border-radius: 5px;
     font-size: x-small;
+    color: white;
 }
 input{
     border: 1px solid #E5E7EB;
@@ -105,4 +107,7 @@ input{
 .nm1 input[type='text']:invalid {
     border: 1px dashed blue;
 
+}
+label{
+    font-size: 8px;
 }
